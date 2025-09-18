@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="server-jwt.js">
+    <link rel="stylesheet" href="node_modules/">
+    <link rel="stylesheet" href="package-lock.json">
+    <link rel="stylesheet" href="package.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form_auth_block">
+  <div class="form_auth_block_content">
+    <p class="form_auth_block_head_text">Авторизация</p>
+    <form class="form_auth_style" action="/login" method="post">
+      <label>Введите Ваш имейл</label>
+      <input type="email" name="username" id="username" placeholder="Введите Ваш имейл" required >
+      <label>Введите Ваш пароль</label>
+      <input type="password" id="password" name="password" placeholder="Введите пароль" required >
+      <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
